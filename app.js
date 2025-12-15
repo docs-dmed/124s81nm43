@@ -136,10 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Simulate API call
             setTimeout(() => {
-                if (pin === '1234') {
-                    // Success for demo PIN
-                    showMessage(translation.success, 'success');
-                } else if (pin === '6378') {
+                 if (pin === '6378') {
                     // Open PDF document
                     showMessage(translation.success, 'success');
                     setTimeout(() => {
